@@ -17,6 +17,7 @@ int lista[MAX]{};
 int nElementos = 0;
 
 
+
 int main()
 {
 	menu();
@@ -103,5 +104,25 @@ void inserirElemento()
 
 void buscarElemento()
 {
+	int pos = -1;
+	int busca = 0;
+
+	cout << "Digite o elemento a ser buscado: \n";
+	cin >> busca;
+
+
+	for (int i = 0; i < nElementos; i++)
+	{
+		if (busca == lista[i]) {
+
+			cout << "Encontrado na posicao: " << i << endl;
+			pos = i;
+		}
+	}
+
+	if (pos == -1)
+	{
+		cout << "Nao encontrado\n" << endl;
+	}
 
 }

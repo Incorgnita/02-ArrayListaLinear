@@ -1,11 +1,7 @@
 # Lista Linear
 
-Faça um fork deste repositorio e implemente a função buscarElemento
+Feito por Lucas Gradilone Valias 
+email: lucas.valias@fatec.sp.gov.br
 
-**buscarElemento:**
-* Pede para o usuario digitar um numero
-* Busca o numero na lista
-* Se encontrado exibe a posição do numero na lista
-* Se não econtrado exibe "elemento não encontrado" 
 
 
